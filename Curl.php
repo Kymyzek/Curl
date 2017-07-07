@@ -2,12 +2,6 @@
 /*
  * Версия 1.02 от 07.07.2017
  *
- * $curl = new Curl();
- * $curl->get('http://domain.com/');
- * $page = $curl->getPage();
- * $curl->post('http://domain.com/', array());
- * $curl->setEncoding('windows-1251', 'UTF-8');
- * $curl->encoding();
  * */
 namespace Kymyzek\Curl;
 
@@ -160,4 +154,5 @@ class Curl
         }
         return $this->content;
     }
+
 }
