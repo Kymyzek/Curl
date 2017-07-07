@@ -160,5 +160,4 @@ class Curl
         }
         return $this->content;
     }
-
 }
